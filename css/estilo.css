@@ -1,0 +1,108 @@
+html{
+	scroll-behavior: smooth;
+}
+
+.gradiente{
+	background-image: linear-gradient(to bottom, #1E90FF, #E0FFFF);
+}
+
+#sobre{
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.linha{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.ano{
+
+	background-image: linear-gradient(to right, #1E90FF, #E0FFFF);
+	border-radius: 50%;
+	width: 40%;
+	margin-right: auto;
+	margin-left: auto;
+	font-weight: 700;
+	margin-bottom: 2vh;
+}
+
+.fundo-imagem{
+	background-image: url(../img/minefundo.jpg);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: auto;
+}
+
+.cor{
+	text-align: center;
+	color: #00008B;
+	margin-top: 10px;
+	text-shadow: 0.1rem 0.1rem #1E90FF;
+}
+
+.counts{
+	padding: 1% 0;
+}
+
+.counts .count-box{
+	width: 100%;
+	text-align: center;
+}
+
+.counts .count-box span{
+	font-size: 48px;
+	color: #00008B;
+	line-height: 48px;
+	display: block;
+	font-weight: 700;
+	margin-left: 80px;
+	margin: auto;
+	text-shadow: 0.1rem 0.1rem #1E90FF;
+}
+
+.counts .count-box p{
+	padding: 2px 0 0 0;
+	font-family: "Roboto", sans-serif;
+	font-weight: 600;
+	font-size: 1.4rem;
+	color: #000000;
+	
+}
+
+.tabela{
+	padding-top: 2%;
+}
+
+table, th, td{
+	border: 5px ridge #000080;
+	text-align: center;
+	width: 100%;
+}
+
+.letra{
+	font-size: 1em;
+}
+
+table{
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td{
+	padding: 15px;
+	border-radius: 30%;
+}
+
+td:hover{
+	background-color: #00BFFF;
+}
+
+tr:nth-child(even) {
+	background-color: #1E90FF;
+}
+.centro{
+	text-align: center;
+}
